@@ -50,15 +50,15 @@ h1{
 
 }
 nav{
-	width:290px;
-	height:89px;
+	width:30%;	height:89px;
 
-	/*margin-left: 155px; */
+	margin-right:70px; 
 	display:block;
-	float:left;
+	float:right;
 	background:white;
 	overflow:hidden;
 	text-align: center;
+
 
 }
 .box{
@@ -68,10 +68,10 @@ nav{
     border-color: #dddddd;
     border-style: solid;
     border-width: 2px;
-    /*
+   
 	margin :40px;
-	*/
-}
+
+	}
 
 #box1{
 	/*
@@ -143,15 +143,17 @@ li {
 }
 li a {
     display: block;
-    
+    color:#dddddd;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 16px ;
     text-decoration: none;
+    margin-top: 10px;
 }
 
-li a:hover:not(.active) {
+
+/*li a:hover:not(.active) {
     background-color: #111;
-	    }
+	    } */
 
 #box1,#image{
 	    	float:left;
@@ -193,6 +195,7 @@ figure{
 }
 ul{
 	margin-bottom: 30px;
-	/*margin-top:30px; */
 	
+	/*margin-top:30px; */
+
 }
