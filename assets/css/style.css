@@ -9,39 +9,32 @@ body {
 	background-color:#d9d9bf;
 	
 	
-}
+}/* to put space in between main header and section */
 .main{
 	margin-top: 40px;
 	
 }
 
-
+/* main header common properties */
 header{
  
-	display:block;
+	/*display:block;*/
 	
 	background :#ffffff;
-	/*width:960px; */
 	height: 91px;
 	border-bottom:2px solid #cccccc;
 	box-sizing: border-box;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
-.empty{
-	display:block;
-	width:435px;
-	height:88px;
-	float:left;
-}
+/* here we used float:left to place name header on left; */
 h1{
-	display:block;
+	/*display:block; */
 	float :left;
-	width:250px;
+	width:300px;
 	height:89px;
 	margin-left: 155px;
-	/* margin-right: 405px; */
 	background: #4aaaa5;
-	overflow :hidden;
 	text-align: left;
 	font-weight: bolder ;
 	font-size: 150%;
@@ -50,112 +43,88 @@ h1{
 
 }
 nav{
-	width:30%;	height:89px;
-
-	margin-right:70px; 
-	display:block;
-	float:right;
+	width:30%;	/*height:89px;*/
+	margin-top:20px;
+	margin-right:110px; 
+	float:right; /* to place nav folder on right */
 	background:white;
-	overflow:hidden;
 	text-align: center;
 
 
 }
+a{
+		
+	border-right: 0.25px solid #dddddd ;
+	text-decoration: none; /* to remove underline from a tag */
+	color:#666666;
+	/* margin: 10px 20px 10px 20px; */
+	padding: 10px ;
+	
+ }
+#atag{
+
+    border-right: none; /* to remove border at end of a tag */
+	}
+/
 .box{
-	display: inline-block; 
+	/*display: inline-block;  /* to place box1 and box2 in a same line */
     float:left;
-    
     border-color: #dddddd;
     border-style: solid;
     border-width: 2px;
-   
-	margin :40px;
+   	margin :40px;
+   	/*width:100%; */
+   	overflow: hidden;
 
 	}
 
 #box1{
-	/*
+	
 	float:left;
-	
-	display:block;
-	
-	overflow:hidden;
-	*/
- /*margin-left: 155px */
 	height:480px;
 	width:650px;
-	/*margin :10px;*/
 	background:white;
 	background-color: #ffffff;
-	/*border:5px solid;
-	border-color: #dddddd;*/
 	margin-left: 157px;
 	margin-right: 40px;
 	margin-bottom: 40px;
+	border: 2px solid #dddddd;
+    display:block;
+    
 
 	
 	
 }
 
-/* p{
-	margin-top:30px;
-	margin-left:30px;
-} */
+
 #box2{
-	/*
-	float:right;
-	display: block;*/
+	
+	float:right; 
 	width:270px;
 	height:200px;
 	background: white;
 	text-align: center;
-	
-	/*overflow: hidden;
-	position: float;	
-	*/
-
-}
+	overflow:hidden;
+	border: 2px solid #dddddd;
+	display: block;
+	margin-right:160px;
+	}
 
 
 footer{
 	clear:both;
 	display:block;
-	/*width:960px;*/
 	height: 90px;
-	box-sizing: border-box;
+	box-sizing: border-box; 
 	background:white;
 	background-color: #666666;
 	border-top: 6px solid teal;
 text-align: center;
 
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  /*  background-color: #333;  */
-}
-
-li {
-    float: left;
-    border-right:1px solid #bbb;
-}
-li a {
-    display: block;
-    color:#dddddd;
-    text-align: center;
-    padding: 14px 16px ;
-    text-decoration: none;
-    margin-top: 10px;
-}
 
 
-/*li a:hover:not(.active) {
-    background-color: #111;
-	    } */
-
-#box1,#image{
+.box1,#image{
 	    	float:left;
 	    }
 
@@ -163,7 +132,12 @@ li a {
 	    	
 	    	margin:30px 30px 30px 30px;
 	    }
-
+	    #image{
+	    	margin-bottom: 3px;
+    		margin-left: 1px;
+    		margin-top: 23px;
+			}
+	   
 h1,h2,h3{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -174,7 +148,7 @@ h1{
 	display:inline-block;
 	margin-right: 5px;
 
-}
+} 
 h2{
 	font-weight: bolder ;
 	font-size: 150%;
@@ -187,15 +161,8 @@ h3{
 	color:teal;
 	padding-top: 20px;
 
-	/*padding-top: 20px; */
-
+	
 }
 figure{
 	margin:30px 30px 40px 30px;
-}
-ul{
-	margin-bottom: 30px;
-	
-	/*margin-top:30px; */
-
 }
